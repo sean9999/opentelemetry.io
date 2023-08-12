@@ -439,7 +439,7 @@ these [`Tracer`]s to export pipelines.
 
 The pipelines that receive and ultimately transmit data to exporters are called
 [`SpanProcessor`]s. A [`TracerProvider`] can be configured to have multiple span
-processors, but for this example you will only need to configure only one.
+processors, but for this example you will only need to configure one.
 Update your `main` function in `main.go` with the following.
 
 ```go
